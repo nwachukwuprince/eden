@@ -20,12 +20,13 @@ align-self: center;
 }
 
 .carousel-inner img {
-    max-width: 50%;
+    max-width: 100%;
     max-height: 350px;
    
   }
   .carslide{
-        height: 22rem;
+        height: 50%;
+        width: 50%;
   }
   .carousel-caption h3,   .carousel-caption p {
       color: white;
@@ -41,23 +42,48 @@ align-self: center;
       max-width:70%;
   
   }
+  .carcap{
+      /* background-color: red !important; */
+      top:50%;
+     
+  }
   
   @media only screen and (max-width: 770px) {
     .carousel-inner img {
         max-width: 100%;
-        height: 90%;
+        height: auto;
     }
+    .carcap{
+        /* background-color: red !important; */
+        top: 45% !important;
+        width: 80%;
+        margin: auto !important;
+    }
+       
+    
 
     .carslide{
-        height: 50%;
+        height: 100% !important;
+        width: 100% !important; 
     }
 
     .carousel-caption h3,   .carousel-caption p {
-       
-        max-width: 70%;
-        font-size: 0.7rem;
+        color : yellow;
+        max-width: 100% !important;
+        font-size: 0.56rem;
   
     }
+    .carind{
+        top: 80%;
+        color: green;
+        
+    }
+
+    .carousel-caption p{
+        visibility:hidden;
+    }
+   
+        
     .sidebar {
         /* top:70px; */
         /* height: 100%;
