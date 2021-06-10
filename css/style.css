@@ -6,13 +6,15 @@
 .sidebar {
     top:70px;
     height: 100%;
-width: 23%;
+width: 20%;
 background-color: #fff;
 position: fixed !important;
 z-index: 1;
 overflow-x: hidden; /* Hide horizontal scrollbar */
 overflow-y: auto; /* Add vertical scrollbar */
 align-self: center;
+left: 0px;
+background-color: rgb(24, 49, 33);
 }
 .main-nav{
     left: 8%;
